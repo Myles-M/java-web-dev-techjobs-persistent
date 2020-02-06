@@ -81,7 +81,6 @@ public class HomeController {
             model.addAttribute("job", job);
             return "view";
         } else {
-
             return "redirect:../";
         }
     }
